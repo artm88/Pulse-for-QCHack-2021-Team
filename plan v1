@@ -1,31 +1,33 @@
-1) Kudits, kutrites, etc. Algorithms for them.
+Perspectives and project in area for Qiskit Pulse. (Team 43)
+
+1) Qudits, Qutrits, etc. We need to manage them.
 2) Extend the lifetime of the system by increasing the number of levels used.
 3) Simulation of multi-level systems on a multi-level system.
 
-1) Process more information
+1) this would allow more information to be managed.
 2) Make an algorithm using the gates from the upper levels.
-Disadvantages - activation time increases
-Dignity - life time increases
-1-2: Pi-pulse 29 ns, sequential time 40 ms, dephasing 32 ms
+Disadvantages: activation time increases.
+Dignity: life time increases.
+Level 1-2: Pi-pulse 29 ns, sequential time 41 ms, dephasing 32 ms.
 That is, the transition time to the upper level will increase by an additional 29 ns, but the system will live 32 ms longer.
-1)	reducing readout errors
+1)	reducing readout errors.
 2)	Separation-decay limit could be alleviated. 
 PRL 114, 010501 (2015)
 PHYSICAL REVIEW X 10, 011001 (2020)
 Fundamental Research 1 (2021) 16–21
-3) Multilevel systems such as bacteria, etc., Rhodobacter sphaeroides.
+3) Multilevel systems such as bacteria, etc. For example, Rhodobacter sphaeroides.
 
-Two-Three impulses. Parameters frequency, length, amplitude. Schedule (delay, etc.)
-Enter one more parameter - the highest level of the system (1,2..n).
-Work at the frequency of a qubit. We set it - the required level is excited - the system goes to it or to the state of superposition.
+Control Pulse for qubit consist of two-three impulses. Parameters are frequency, length, amplitude and schedule (delay, etc.)
+We can enter one more parameter - the highest level of the system (1,2..n).
+We work at the frequency of a qubit. We set it - the required level is excited - the system goes to it or to the state of superposition.
 
 What happens if the gate has n levels?
 Is relaxation from level n to 0 interesting?
 Is it possible to simulate with the help of an impulse?
 
-If you work with two levels, then Hadamard gives out 50% x50%.
-If you work with four levels, then perhaps Hadamard will give out 25% 25% 25% 25% at the output.
-It turns out a 4-level qubit or kudit. You can replace two two-level qubits with one four-level qubit.
+If we work with two levels, then Hadamard gives out 50% x50%.
+If we work with four levels, then perhaps Hadamard will give out 25% 25% 25% 25% at the output.
+It turns out a 4-level qubit or kudit. We can replace two two-level qubits with one four-level qubit.
 Fewer qubits are needed for algorithms with duplicated one-qubit gates.
 
 For simulations, if we could change the levels, frequencies of the oscillator, make them equivalent to the energy levels of light-emitting elements or light-absorbing bacteria.
@@ -40,7 +42,13 @@ It turns out four branches of development instead of two.
 The depth of the algorithm appears.
 Two levels - two algorithms.
 Four levels - four algorithms.
-Application - brute force problems.
+Application is tasks brute force.
 
 A system of n variants can be built into a quantum algorithm, and this can be varied in the algorithm itself, using impulses right along the way for two levels of qubits, 
-for three levels of qubits, etc. Several branches can go in parallel, and if in the conditions of several qubits at once, then you can build a complex interdependent system.
+for three levels of qubits, etc. Several branches can go in parallel, and if in the conditions of several qubits at once, then we can build a complex interdependent system.
+
+Rohan Bhatia#4443 IBM
+Pritam Sinha#1509 IBM
+CiSyuan#2108 IBM
+Artem K#9084 IBM
+
