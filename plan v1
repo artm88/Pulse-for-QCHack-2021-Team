@@ -52,6 +52,8 @@ Pritam Sinha#1509 IBM
 CiSyuan#2108 IBM
 Artem K#9084 IBM
 
+Overview: We have tried to simulate the method to Access higher energy States of the Transmon Qubit using the Hamiltonian of the system, 
+solved using Time independent perturbation theory. We have written the code on Qiskit and ran it on IBM's Quantum Experience.
 
 import numpy as np
 import matplotlib.pyplot as plt
