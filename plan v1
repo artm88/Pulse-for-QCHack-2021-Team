@@ -41,5 +41,6 @@ The depth of the algorithm appears.
 Two levels - two algorithms.
 Four levels - four algorithms.
 Application - brute force problems.
+
 A system of n variants can be built into a quantum algorithm, and this can be varied in the algorithm itself, using impulses right along the way for two levels of qubits, 
 for three levels of qubits, etc. Several branches can go in parallel, and if in the conditions of several qubits at once, then you can build a complex interdependent system.
